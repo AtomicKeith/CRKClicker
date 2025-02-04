@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "CookieRun Typeface Regular";
+    src: url(../assets/fonts/CookieRunRegular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "CookieRun Typeface Bold";
+    src: url(../assets/fonts/CookieRunBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "CookieRun Typeface Black";
+    src: url(../assets/fonts/CookieRunBlack.ttf) format("truetype");
+}
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'CookieRun Typeface Regular';
+}
+
+.bold {
+    font-family:'CookieRun Typeface Bold';
+}
+
+.black {
+    font-family:'CookieRun Typeface Black';
+}

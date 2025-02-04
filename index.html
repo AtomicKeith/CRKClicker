@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/popup.css"/>
+    <title>Page Title</title>
+</head>
+<body>
+
+    <h1>Header 1 Regular <span class="bold">Header 1 Bold </span><span class="black">Header 1 Black</span></h1>
+    <h2>Header 2 Regular <span class="bold">Header 2 Bold </span><span class="black">Header 2 Black</span></h2>
+    <h3>Header 3 Regular <span class="bold">Header 3 Bold </span><span class="black">Header 3 Black</span></h3>
+    <h4>Header 4 Regular <span class="bold">Header 4 Bold </span><span class="black">Header 4 Black</span></h4>
+    <h5>Header 5 Regular <span class="bold">Header 5 Bold </span><span class="black">Header 5 Black</span></h5>
+    <h6>Header 6 Regular <span class="bold">Header 6 Bold </span><span class="black">Header 6 Black</span></h6>
+    <p>Paragraph Regular <span class="bold">Paragraph Bold </span><span class="black">Paragraph Black</span></p>
+
+    <div class="center">
+        <button id="open-alpha-warning">Alpha Info</button>
+    </div>
+
+    <div class="popup active", id="alpha-warning">
+        <div class="overlay"></div>
+        <div class="popup-content">
+            <h2>This game is in <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle#:~:text=%5Bedit%5D-,Pre%2Dalpha,-%5Bedit%5D" target="_blank">Pre-alpha</a>!</h2>
+            <p>There is a very good chance you may lose your progress at any point until further notice. By closing this popup and continuing to play the game you promise not to join my discord and complain about how much progress you lost from an update.</p>
+            <div class="controls">
+                <button class="close-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/popup.js"></script>
+</body>
+</html>
